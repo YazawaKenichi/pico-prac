@@ -1,6 +1,7 @@
 # pico-prac
 # 概要
-Raspberry Pi Pico の公式ドキュメント [Getting started with Raspberry Pi Pico](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf) の Chapter 8 で作成したプログラム。
+Raspberry Pi Pico の公式ドキュメント [Getting started with Raspberry Pi Pico](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf) とか、
+Raspberry Pi Pico のサンプルコード [pico-examples - GitHub](https://github.com/raspberrypi/pico-examples) を読んで、内容が理解できているか確認するためのプログラムたち。
 
 # 動作環境
 ```
@@ -11,24 +12,9 @@ gcc/g++ 9.4.0
 ```
 
 # 使用方法
-0. Raspberry Pi Pico の公式ドキュメント [Getting started with Raspberry Pi Pico](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf) にしたがって環境を構築してください。
-1. 任意の場所にクローンします。
-    ```
-    git clone https://github.com/yazawakenichi/pico-prac
-    ```
-2. ビルドします。
-    ```
-    cd pico-prac
-    mkdir build
-    cd build
-    cmake ..
-    make
-    ```
-3. Raspberry Pi Pico のボード上にある BOOTSEL ボタンを押しながらパソコンと USB 接続します。
-4. `build` ディレクトリ内にできた `pico-prac.uf2` ファイルを `RPI-RP2` ストレージにコピーします。
-    ```
-    cp ./pico-prac.uf2 /media/$USERNAME/RPI-RP2
-    ```
-5. シリアル通信の出力を見ると Hello, World! が無限に出力されていることがわかると思う。
+使用方法については、各コードの README を参照してください。
 
+# ライセンス
+pico-prac については公式ドキュメント丸パクリみたいなものなのでそのライセンスに従います。
+それ以外は MIT ライセンスに従います。
 
