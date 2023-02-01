@@ -18,7 +18,7 @@ gcc/g++ 9.4.0
     ```
 2. ビルドします。
     ```
-    cd pico-prac
+    cd pico-prac/pico-prac
     mkdir build
     cd build
     cmake ..
