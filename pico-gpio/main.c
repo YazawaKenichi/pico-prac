@@ -28,6 +28,6 @@ int main()
     {
         //! GPIO の出力
         gpio_put(LED_GPIO, !gpio_get(SWITCH_GPIO));
-        sleep_ms(100);
+        sleep_ms(1);
     }
 }
