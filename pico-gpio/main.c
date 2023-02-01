@@ -22,7 +22,7 @@ int main()
     gpio_init(SWITCH_GPIO);
     //! GPIO が IN か OUT か決める
     gpio_set_dir(LED_GPIO, GPIO_OUT);
-    //! プルアップかプルダウンはプログラムで調整する ( 内部回路的に無条件プルアップになってるかも... )
+    //! プルアップかプルダウンはプログラムで調整する ( 内部プルアップはありません )
     gpio_set_dir(SWITCH_GPIO, GPIO_IN);
     while(true)
     {
