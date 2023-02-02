@@ -5,7 +5,7 @@ cmake_minimum_required(VERSION 3.13)
 include(pico_sdk_import.cmake)
 
 # プロジェクト名を決める
-# 人まとまりのソースコードに付ける名前
+# ひとまとまりのソースコードに付ける名前
 project(pico_gpio C CXX ASM)
 
 # 変数設定？

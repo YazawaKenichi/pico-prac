@@ -25,7 +25,7 @@ gcc/g++ 9.4.0
     make
     ```
 3. Raspberry Pi Pico のボード上にある BOOTSEL ボタンを押しながらパソコンと USB 接続します。
-4. `build` ディレクトリ内にできた `pico-prac.uf2` ファイルを `RPI-RP2` ストレージにコピーします。
+4. `build` ディレクトリ内にできた `pico-gpio.uf2` ファイルを `RPI-RP2` ストレージにコピーします。
     ```
     cp ./pico-gpio.uf2 /media/$USERNAME/RPI-RP2
     ```
