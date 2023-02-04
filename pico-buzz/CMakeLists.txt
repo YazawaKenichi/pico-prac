@@ -15,5 +15,9 @@ add_executable(buzzer
 
 pico_add_extra_outputs(buzzer)
 
-target_link_libraries(buzzer hardware_pwm pico_stdlib)
+# 標準出力に必要
+pico_enable_stdio_usb(buzzer 1)
+pico_enable_stdio_uart(buzzer 0)
+
+target_link_libraries(buzzer hardware_pwm hardware_adc pico_stdlib)
 
