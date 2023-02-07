@@ -1,3 +1,0 @@
-/home/shiokaze/pico/pico-prac/build/pioasm/CMakeFiles/rebuild_cache.dir
-/home/shiokaze/pico/pico-prac/build/pioasm/CMakeFiles/edit_cache.dir
-/home/shiokaze/pico/pico-prac/build/pioasm/CMakeFiles/pioasm.dir
