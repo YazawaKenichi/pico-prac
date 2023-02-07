@@ -17,6 +17,10 @@
 #include "hardware/adc.h"
 //! UART
 #include <stdio.h>
+//! sleep_ms
+#include <unistd.h>
+//! MeloDict
+#include "melodict.hpp"
 
 #define FREQ_CTRL 1
 #define PWM_OUT_PIN 16
@@ -105,6 +109,7 @@ int main()
 #else
     float freq = 440;
     float duty = RESC(adc_read());
+    melo2freq("hoge");
     pwm_set_clkdiv(slice_num, (float) freq2clkdiv(freq));
 #endif
 
