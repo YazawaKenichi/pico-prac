@@ -1,5 +1,5 @@
 /**
- * @file main.cpp
+ * @file main.c
  * @author YAZAWA Kenichi (s21c1036hn@gmail.com)
  * @brief I2C ディスプレイに文字を表示する
  * @version 1.0
@@ -12,9 +12,10 @@
  */
 
 //! main
-#include "main.hpp"
+#include "main.h"
 
 int main()
 {
     return 0;
 }
+

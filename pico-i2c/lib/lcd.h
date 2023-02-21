@@ -1,5 +1,5 @@
 /**
- * @file main.hpp
+ * @file lcd.h
  * @author YAZAWA Kenichi (s21c1036hn@gmail.com)
  * @brief 
  * @version 1.0
@@ -9,8 +9,8 @@
  * 
  */
 
-#ifndef __MAIN_HPP__
-#define __MAIN_HPP__
+#ifndef __LCD_H__
+#define __LCD_H__
 
 //! UART ?
 #include <stdio.h>
