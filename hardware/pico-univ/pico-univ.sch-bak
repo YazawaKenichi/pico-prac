@@ -1078,6 +1078,9 @@ Joystick_VRx
 NoConn ~ 20900 14750
 NoConn ~ 20900 15150
 NoConn ~ 20900 15250
+NoConn ~ 20900 15450
+NoConn ~ 20900 15550
+NoConn ~ 24050 14850
 Wire Bus Line
 	25150 15050 25150 16800
 Wire Bus Line

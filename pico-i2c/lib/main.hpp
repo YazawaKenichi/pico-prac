@@ -12,4 +12,13 @@
 #ifndef __MAIN_HPP__
 #define __MAIN_HPP__
 
+//! UART ?
+#include <stdio.h>
+//! ???? ?
+#include "pico/stdlib.h"
+//! I2C
+#include "hardware/i2c.h"
+//! ???? ?
+#include "pico/binary_info.h"
+
 #endif
