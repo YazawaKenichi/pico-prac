@@ -22,6 +22,7 @@
 //! MeloDict
 #include "melodict.hpp"
 
+//! PWM MACROS
 #define FREQ_CTRL 1
 #define PWM_OUT_PIN 16
 //! system main clock システムメインクロック : 125 MHz

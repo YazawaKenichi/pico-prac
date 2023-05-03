@@ -59,7 +59,7 @@ void lcd_string(const char *s)
 
 void lcd_init()
 {
-    lcd_send_byte(, LCD_COMMAND);
+    lcd_send_byte(0b0011100, LCD_COMMAND);
     lcd_send_byte(, LCD_COMMAND);
     lcd_send_byte(, LCD_COMMAND);
     lcd_send_byte(, LCD_COMMAND);

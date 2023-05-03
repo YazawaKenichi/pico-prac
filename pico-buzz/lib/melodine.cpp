@@ -36,7 +36,7 @@ private:
     unsigned int _sysclock;
     unsigned int _wrap;
     unsigned short int _pin;
-}
+};
 
 class MeloDine
 {
@@ -99,5 +99,5 @@ private:
     string length_array[ARRAY_LENGTH];
     uint16_t end_of_melodine;
     Buzzer buzzer;
-}
+};
 

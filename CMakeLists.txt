@@ -12,4 +12,5 @@ pico_sdk_init()
 add_subdirectory(pico-prac)
 add_subdirectory(pico-gpio)
 add_subdirectory(pico-buzz)
+add_subdirectory(pico-hid)
 
